@@ -10,7 +10,7 @@ import lombok.Data;
 @Table(name = "cadastro_unidade_federativa")
 @Data
 public class Estado {
-    private @Id Integer cd_uf;
-    private @Column String nm_uf;
-    private @Column String sg_uf;
+    private @Id Integer cdUf;
+    private @Column String nmUf;
+    private @Column String sgUf;
 }

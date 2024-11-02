@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ServicoEmergenciaRepository extends JpaRepository<ServicoEmergencia, Integer> {
-    List<ServicoEmergencia> findByCd_municipio(String cd_municipio);
+    List<ServicoEmergencia> findByCdMunicipio(String cd_municipio);
 }

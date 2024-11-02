@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository 
 public interface EstadoRepository extends JpaRepository<Estado, Integer> {
-    Estado findBySg_uf(String sg_uf);
+    Estado findBySgUf(String sg_uf);
 }

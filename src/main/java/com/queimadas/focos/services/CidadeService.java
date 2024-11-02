@@ -21,7 +21,7 @@ public class CidadeService {
     }
 
     public Cidade findByCodigoCidade(String codigoCidade) {
-        return this.cidadeRepository.findByCd_municipio(codigoCidade);
+        return this.cidadeRepository.findByCdMunicipio(codigoCidade);
     }
 
 }

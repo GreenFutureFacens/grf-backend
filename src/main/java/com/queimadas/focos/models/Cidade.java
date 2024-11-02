@@ -11,7 +11,7 @@ import lombok.Data;
 @Table(name = "cadastro_municipio")
 @Data
 public class Cidade {
-    private @Id String cd_municipio;
-    private @Column String nm_municipio;
-    private @Column Integer cd_uf;
+    private @Id String cdMunicipio;
+    private @Column String nmMunicipio;
+    private @Column Integer cdUf;
 }

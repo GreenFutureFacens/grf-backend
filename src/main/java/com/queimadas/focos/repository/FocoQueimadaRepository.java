@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FocoQueimadaRepository extends JpaRepository<FocoQueimada, Integer> {
-    List<FocoQueimada> findByDt_focoBetween(LocalDate start, LocalDate end);
-    List<FocoQueimada> findByDt_foco(LocalDate dt_foco);
-    List<FocoQueimada> findByDt_focoBetweenAndCd_municipio(LocalDate start, LocalDate end,String codigo);
+    List<FocoQueimada> findByDtFocoBetween(LocalDate start, LocalDate end);
+    List<FocoQueimada> findByDtFoco(LocalDate dt_foco);
+    List<FocoQueimada> findByDtFocoBetweenAndCdMunicipio(LocalDate start, LocalDate end,String codigo);
 }

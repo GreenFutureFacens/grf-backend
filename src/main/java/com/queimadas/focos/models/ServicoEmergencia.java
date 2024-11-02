@@ -10,8 +10,8 @@ import lombok.Data;
 @Table(name = "cadastro_oficial_civil")
 @Data
 public class ServicoEmergencia {
-    private @Id Integer id_oficial_civil;
-    private @Column String nm_oficial_civil;
-    private @Column String nr_telefone;
-    private @Column String cd_municipio;
+    private @Id Integer idOficialCivil;
+    private @Column String nmOficialCivil;
+    private @Column String nrTelefone;
+    private @Column String cdMunicipio;
 }

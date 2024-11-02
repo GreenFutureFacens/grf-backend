@@ -21,6 +21,6 @@ public class ServicoEmergenciaService {
     }
 
     public List<ServicoEmergencia> findByMunicipio(String codigo) {
-        return this.servicoEmergenciaRepository.findByCd_municipio(codigo);
+        return this.servicoEmergenciaRepository.findByCdMunicipio(codigo);
     }
 }

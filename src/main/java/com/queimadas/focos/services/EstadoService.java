@@ -21,6 +21,6 @@ public class EstadoService {
     }
 
     public Estado findBySigla(String sigla) {
-        return this.estadoRepository.findBySg_uf(sigla);
+        return this.estadoRepository.findBySgUf(sigla);
     }
 }

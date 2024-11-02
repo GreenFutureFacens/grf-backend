@@ -22,10 +22,10 @@ public class FocoQueimadaService {
     }
 
     public List<FocoQueimada> findByPeriod(LocalDate start, LocalDate end) {
-        return this.focoQueimadaRepository.findByDt_focoBetween(start, end);
+        return this.focoQueimadaRepository.findByDtFocoBetween(start, end);
     }
 
     public List<FocoQueimada> findByPeriodAndCity(LocalDate start, LocalDate end, String codigo) {
-        return this.focoQueimadaRepository.findByDt_focoBetweenAndCd_municipio(start, end, codigo);
+        return this.focoQueimadaRepository.findByDtFocoBetweenAndCdMunicipio(start, end, codigo);
     }
 }
